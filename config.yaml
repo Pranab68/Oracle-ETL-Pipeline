@@ -1,0 +1,125 @@
+app_name: "ExcelToParquet_SM_NEOM"
+
+excel_jar_path: "spark-excel_2.12-3.3.1_0.18.7.jar"
+
+ 
+
+sheets:
+
+  - sheet_name: "FCL_DISTRIBUTIONBOX_AREA"
+
+    header_row_index: 1
+
+    data_start_row_index: 2
+
+    input_path: "oci://bkt-neom-enowa-drp-dev-data-landing@axjj8sdvrg1w/Asset/Bespoke GIS/Feature_Class/12.03_Neom_21May_FeatureClass_Count_Tables.xlsx"
+
+    output_path: "oci://bkt-neom-enowa-drp-dev-data-raw@axjj8sdvrg1w/test666"
+
+ 
+
+  - sheet_name: "FCL_EDSERVICEPOINT"
+
+    header_row_index: 1
+
+    data_start_row_index: 2
+
+    input_path: "oci://bkt-neom-enowa-drp-dev-data-landing@axjj8sdvrg1w/Asset/Bespoke GIS/Feature_Class/12.03_Neom_21May_FeatureClass_Count_Tables.xlsx"
+
+    output_path: "oci://bkt-neom-enowa-drp-dev-data-raw@axjj8sdvrg1w/test666"
+
+ 
+
+  - sheet_name: "FCL_LVOHELECTRICLINESEGMENT"
+
+    header_row_index: 1
+
+    data_start_row_index: 2
+
+    input_path: "oci://bkt-neom-enowa-drp-dev-data-landing@axjj8sdvrg1w/Asset/Bespoke GIS/Feature_Class/12.03_Neom_21May_FeatureClass_Count_Tables.xlsx"
+
+    output_path: "oci://bkt-neom-enowa-drp-dev-data-raw@axjj8sdvrg1w/test666"
+
+ 
+
+  - sheet_name: "FCL_LVUGELECTRICLINESEGMENT"
+
+    header_row_index: 1
+
+    data_start_row_index: 2
+
+    input_path: "oci://bkt-neom-enowa-drp-dev-data-landing@axjj8sdvrg1w/Asset/Bespoke GIS/Feature_Class/12.03_Neom_21May_FeatureClass_Count_Tables.xlsx"
+
+    output_path: "oci://bkt-neom-enowa-drp-dev-data-raw@axjj8sdvrg1w/test666"
+
+ 
+
+  - sheet_name: "FCL_MVOHELECTRICLINESEGMENT"
+
+    header_row_index: 1
+
+    data_start_row_index: 2
+
+    input_path: "oci://bkt-neom-enowa-drp-dev-data-landing@axjj8sdvrg1w/Asset/Bespoke GIS/Feature_Class/12.03_Neom_21May_FeatureClass_Count_Tables.xlsx"
+
+    output_path: "oci://bkt-neom-enowa-drp-dev-data-raw@axjj8sdvrg1w/test666"
+
+ 
+
+  - sheet_name: "FCL_MVUGELECTRICLINESEGMENT"
+
+    header_row_index: 1
+
+    data_start_row_index: 2
+
+    input_path: "oci://bkt-neom-enowa-drp-dev-data-landing@axjj8sdvrg1w/Asset/Bespoke GIS/Feature_Class/12.03_Neom_21May_FeatureClass_Count_Tables.xlsx"
+
+    output_path: "oci://bkt-neom-enowa-drp-dev-data-raw@axjj8sdvrg1w/test666"
+
+ 
+
+  - sheet_name: "FCL_RMU_AREA"
+
+    header_row_index: 1
+
+    data_start_row_index: 2
+
+    input_path: "oci://bkt-neom-enowa-drp-dev-data-landing@axjj8sdvrg1w/Asset/Bespoke GIS/Feature_Class/12.03_Neom_21May_FeatureClass_Count_Tables.xlsx"
+
+    output_path: "oci://bkt-neom-enowa-drp-dev-data-raw@axjj8sdvrg1w/test666"
+
+ 
+
+  - sheet_name: "FCL_STATION_AREA"
+
+    header_row_index: 1
+
+    data_start_row_index: 2
+
+    input_path: "oci://bkt-neom-enowa-drp-dev-data-landing@axjj8sdvrg1w/Asset/Bespoke GIS/Feature_Class/12.03_Neom_21May_FeatureClass_Count_Tables.xlsx"
+
+    output_path: "oci://bkt-neom-enowa-drp-dev-data-raw@axjj8sdvrg1w/test666"
+
+ 
+
+  - sheet_name: "FCL_SUBSTATION_AREA"
+
+    header_row_index: 1
+
+    data_start_row_index: 2
+
+    input_path: "oci://bkt-neom-enowa-drp-dev-data-landing@axjj8sdvrg1w/Asset/Bespoke GIS/Feature_Class/12.03_Neom_21May_FeatureClass_Count_Tables.xlsx"
+
+    output_path: "oci://bkt-neom-enowa-drp-dev-data-raw@axjj8sdvrg1w/test666"
+
+ 
+
+  - sheet_name: "OCL_METER"
+
+    header_row_index: 1
+
+    data_start_row_index: 2
+
+    input_path: "oci://bkt-neom-enowa-drp-dev-data-landing@axjj8sdvrg1w/Asset/Bespoke GIS/Feature_Class/12.03_Neom_21May_FeatureClass_Count_Tables.xlsx"
+
+    output_path: "oci://bkt-neom-enowa-drp-dev-data-raw@axjj8sdvrg1w/test666"
